@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-03T11:20:53Z" name="Default suite" finished-at="2023-11-03T11:22:36Z" duration-ms="102859">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerr.tr@49c66ade]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-03T11:20:53Z" name="Default test" finished-at="2023-11-03T11:22:36Z" duration-ms="102859">
+      <class name="runnerr.tr">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runnerr.tr@49c66ade]" started-at="2023-11-03T16:50:53Z" name="setUpClass" finished-at="2023-11-03T16:50:54Z" duration-ms="689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ecf5915]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerr.tr@49c66ade]" started-at="2023-11-03T16:50:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-03T16:52:36Z" duration-ms="102068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test guru99        #GOAL]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerr.tr@49c66ade]" started-at="2023-11-03T16:52:36Z" name="tearDownClass" finished-at="2023-11-03T16:52:36Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerr.tr -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
